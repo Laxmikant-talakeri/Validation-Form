@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background:url('b.png') no-repeat ;
+    background-size:cover;
+
+}
+.box{
+    width:400px;
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 2px 2px 5px whitesmoke,-2px -2px 5px brown;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    padding: 20px 40px;
+}
+.signup- h1{
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 5px;
+}
+.signup{
+    text-align: center;
+}
+label{
+    font-size: 18px;
+    font-weight: 600;
+    color: aliceblue;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-block: 4px;
+    
+    border: black;
+    
+}
+p{
+    margin: 1rem;
+}
+input[type="submit"]{
+    border:none ;
+    background-color: rgb(97, 97, 228);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+
+
+}
+input[type="submit"]:hover{
+    background-color: rgb(25, 25, 250);
+}
+.login-footer p{
+    text-align: center;
+    font-weight: 600;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+
